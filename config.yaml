@@ -5,22 +5,13 @@ disableAliases: true # We do redirects via Netlify's _redirects file
 enableGitInfo: true
 
 # Language settings
-# 
-defaultContentLanguage: "en"
-defaultContentLanguageInSubdir: false
 enableMissingTranslationPlaceholders: true
 languages:
   en:
     title: OpenTelemetry
     description: The OpenTelemetry Project Site
     languageName: English
-    weight: 2
-  cn:
-    title: OpenTelemetry中文
-    description: The OpenTelemetry 項目
-    languageName: 中文
     weight: 1
-    contentDir: "content/cn"
 
 imaging:
   resampleFilter: CatmullRom
